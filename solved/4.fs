@@ -27,9 +27,8 @@ let main argv =
   let mutable i = 1
   while now > 99 && ans = 0 do
     let p = makePelindrome now
-    Console.WriteLine(p)
     if isProductOfThrees p then
       ans <- p
     now <- now - 1
-  Console.WriteLine("is answer.")
+  Console.WriteLine(ans)
   0
