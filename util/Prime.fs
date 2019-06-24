@@ -2,10 +2,11 @@ namespace PE
 open System
 
 module Util =
+
   let makePrimes n =
     let limit =
       int32 << ceil << sqrt << float <| n
-    let flags = System.Collections.BitArray(n + 1, true)
+    let flags = Collections.BitArray(n + 1, true)
     flags.[0] <- false
     flags.[1] <- false
     let primes = new Collections.Generic.List<int32>()
