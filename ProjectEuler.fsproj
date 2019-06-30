@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="util/MinMax.fs" />
     <Compile Include="util/Prime.fs" />
+    <Compile Include="util/Matrix.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
